@@ -5,7 +5,7 @@ $config = array();
 
 $config['db']['master']['host'] = '127.0.0.1';
 $config['db']['master']['username'] = 'root';
-$config['db']['master']['password'] = 'tonglinDC.';
+$config['db']['master']['password'] = '';
 $config['db']['master']['port'] = '3306';
 $config['db']['master']['database'] = 'we7';
 $config['db']['master']['charset'] = 'utf8';
