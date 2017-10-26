@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://www.we7.cc" versionCode="">
+	<application setting="false">
+		<name><![CDATA[会员中心]]></name>
+		<identifie><![CDATA[member_center]]></identifie>
+		<version><![CDATA[2.2]]></version>
+		<type><![CDATA[business]]></type>
+		<ability><![CDATA[会员中心]]></ability>
+		<description><![CDATA[会员中心]]></description>
+		<author><![CDATA[橙橙同学]]></author>
+		<url><![CDATA[]]></url>
+	</application>
+	<platform>
+		<subscribes>
+		</subscribes>
+		<handles>
+			<message type="text" />
+			<message type="user_get_card" />
+			<message type="user_del_card" />
+			<message type="user_consume_card" />
+		</handles>
+		<rule embed="false" />
+		<card embed="true" />
+		<supports>
+			<item type="app" />
+		</supports>
+	</platform>
+	<bindings>
+		<cover>
+			<entry title="红能封面" do="zheshi" state="" direct="false" />
+		</cover>
+		<menu>
+			<entry title="会员卡管理" do="manageCard" state="" direct="false" />
+			<entry title="会员分组" do="manageGroup" state="" direct="false" />
+			<entry title="会员中心" do="manageCenter" state="" direct="false" />
+		</menu>
+		<home>
+			<entry title="首页导航图表" do="zheshisha" state="" direct="false" />
+		</home>
+		<profile>
+			<entry title="个人中心导航" do="whatfuck" state="" direct="false" />
+		</profile>
+		<shortcut>
+			<entry title="功能导航" do="polaji" state="" direct="false" />
+		</shortcut>
+		<function>
+			<entry title="独立功能" do="aigfule" state="" direct="false" />
+		</function>
+	</bindings>
+	<permissions>
+	</permissions>
+	<install><![CDATA[]]></install>
+	<uninstall><![CDATA[]]></uninstall>
+	<upgrade><![CDATA[]]></upgrade>
+</manifest>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://www.we7.cc" versionCode="">
+	<application setting="false">
+		<name><![CDATA[智慧停车系统]]></name>
+		<identifie><![CDATA[happy_parking]]></identifie>
+		<version><![CDATA[1.0]]></version>
+		<type><![CDATA[business]]></type>
+		<ability><![CDATA[智慧停车系统]]></ability>
+		<description><![CDATA[智慧停车系统]]></description>
+		<author><![CDATA[橙橙同学]]></author>
+		<url><![CDATA[]]></url>
+	</application>
+	<platform>
+		<subscribes>
+		</subscribes>
+		<handles>
+			<message type="text" />
+			<message type="trace" />
+		</handles>
+		<rule embed="true" />
+		<card embed="false" />
+		<supports>
+			<item type="app" />
+		</supports>
+	</platform>
+	<bindings>
+		<cover>
+			<entry title="停车系统设置" do="parkingSetting" state="" direct="false" />
+		</cover>
+		<menu>
+			<entry title="停车记录管理" do="parkingLog" state="" direct="false" />
+			<entry title="停车积分管理" do="parkingScore" state="" direct="false" />
+			<entry title="停车会员管理" do="paringMember" state="" direct="false" />
+			<entry title="停车配置管理" do="parkingConfig" state="" direct="false" />
+			<entry title="停车模板消息管理" do="parkingInfo" state="" direct="false" />
+		</menu>
+	</bindings>
+	<permissions>
+	</permissions>
+	<install><![CDATA[]]></install>
+	<uninstall><![CDATA[]]></uninstall>
+	<upgrade><![CDATA[]]></upgrade>
+</manifest>

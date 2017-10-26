@@ -316,6 +316,7 @@ class We7_couponModuleSite extends WeModuleSite {
 	}
 
 	public function doWebCardmanage() {
+
 		global $_GPC, $_W;
 		$op = !empty($_GPC['op']) ? $_GPC['op'] : 'display';
 		$setting = $this->settings;
