@@ -1,0 +1,76 @@
+2017-10-23 07:26:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_962b22f376f9]]></ToUserName>
+<FromUserName><![CDATA[o_7k0xCKYXvH28imNE7ZUUMgD8XQ]]></FromUserName>
+<CreateTime>1508714787</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[抽签]]></Content>
+<MsgId>6479880669585748882</MsgId>
+</xml>
+
+2017-10-23 07:26:27 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_962b22f376f9',
+    'fromusername' => 'o_7k0xCKYXvH28imNE7ZUUMgD8XQ',
+    'createtime' => '1508714787',
+    'msgtype' => 'text',
+    'content' => '抽签',
+    'msgid' => '6479880669585748882',
+    'from' => 'o_7k0xCKYXvH28imNE7ZUUMgD8XQ',
+    'to' => 'gh_962b22f376f9',
+    'time' => '1508714787',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-10-23 07:26:27 response :
+------------
+
+2017-10-23 07:26:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_962b22f376f9]]></ToUserName>
+<FromUserName><![CDATA[o_7k0xCKYXvH28imNE7ZUUMgD8XQ]]></FromUserName>
+<CreateTime>1508714796</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[红包]]></Content>
+<MsgId>6479880708240454547</MsgId>
+</xml>
+
+2017-10-23 07:26:36 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_962b22f376f9',
+    'fromusername' => 'o_7k0xCKYXvH28imNE7ZUUMgD8XQ',
+    'createtime' => '1508714796',
+    'msgtype' => 'text',
+    'content' => '红包',
+    'msgid' => '6479880708240454547',
+    'from' => 'o_7k0xCKYXvH28imNE7ZUUMgD8XQ',
+    'to' => 'gh_962b22f376f9',
+    'time' => '1508714796',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-10-23 07:26:36 response :
+------------
+

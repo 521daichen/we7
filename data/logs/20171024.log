@@ -1,0 +1,152 @@
+2017-10-24 19:50:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_962b22f376f9]]></ToUserName>
+<FromUserName><![CDATA[o_7k0xCKYXvH28imNE7ZUUMgD8XQ]]></FromUserName>
+<CreateTime>1508845805</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[跳跳糖]]></Content>
+<MsgId>6480443387610975368</MsgId>
+</xml>
+
+2017-10-24 19:50:05 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_962b22f376f9',
+    'fromusername' => 'o_7k0xCKYXvH28imNE7ZUUMgD8XQ',
+    'createtime' => '1508845805',
+    'msgtype' => 'text',
+    'content' => '跳跳糖',
+    'msgid' => '6480443387610975368',
+    'from' => 'o_7k0xCKYXvH28imNE7ZUUMgD8XQ',
+    'to' => 'gh_962b22f376f9',
+    'time' => '1508845805',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-10-24 19:50:05 response :
+------------
+
+2017-10-24 19:50:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_962b22f376f9]]></ToUserName>
+<FromUserName><![CDATA[o_7k0xCKYXvH28imNE7ZUUMgD8XQ]]></FromUserName>
+<CreateTime>1508845827</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[嗷嗷]]></Content>
+<MsgId>6480443482100255888</MsgId>
+</xml>
+
+2017-10-24 19:50:27 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_962b22f376f9',
+    'fromusername' => 'o_7k0xCKYXvH28imNE7ZUUMgD8XQ',
+    'createtime' => '1508845827',
+    'msgtype' => 'text',
+    'content' => '嗷嗷',
+    'msgid' => '6480443482100255888',
+    'from' => 'o_7k0xCKYXvH28imNE7ZUUMgD8XQ',
+    'to' => 'gh_962b22f376f9',
+    'time' => '1508845827',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-10-24 19:50:27 response :
+------------
+
+2017-10-24 19:50:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_962b22f376f9]]></ToUserName>
+<FromUserName><![CDATA[o_7k0xCKYXvH28imNE7ZUUMgD8XQ]]></FromUserName>
+<CreateTime>1508845853</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[嗷嗷]]></Content>
+<MsgId>6480443593769405593</MsgId>
+</xml>
+
+2017-10-24 19:50:53 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_962b22f376f9',
+    'fromusername' => 'o_7k0xCKYXvH28imNE7ZUUMgD8XQ',
+    'createtime' => '1508845853',
+    'msgtype' => 'text',
+    'content' => '嗷嗷',
+    'msgid' => '6480443593769405593',
+    'from' => 'o_7k0xCKYXvH28imNE7ZUUMgD8XQ',
+    'to' => 'gh_962b22f376f9',
+    'time' => '1508845853',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-10-24 19:50:53 response :
+------------
+
+2017-10-24 19:50:58 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_962b22f376f9]]></ToUserName>
+<FromUserName><![CDATA[o_7k0xCKYXvH28imNE7ZUUMgD8XQ]]></FromUserName>
+<CreateTime>1508845858</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[客服]]></Content>
+<MsgId>6480443615244242078</MsgId>
+</xml>
+
+2017-10-24 19:50:58 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_962b22f376f9',
+    'fromusername' => 'o_7k0xCKYXvH28imNE7ZUUMgD8XQ',
+    'createtime' => '1508845858',
+    'msgtype' => 'text',
+    'content' => '客服',
+    'msgid' => '6480443615244242078',
+    'from' => 'o_7k0xCKYXvH28imNE7ZUUMgD8XQ',
+    'to' => 'gh_962b22f376f9',
+    'time' => '1508845858',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-10-24 19:50:58 response :
+------------
+
