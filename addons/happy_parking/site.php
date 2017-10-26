@@ -12,6 +12,8 @@ class Happy_parkingModuleSite extends WeModuleSite {
 	public function doMobileParkingSetting() {
 		//这个操作被定义用来呈现 功能封面
 	}
+
+
 	public function doWebParkingLog() {
 		//这个操作被定义用来呈现 管理中心导航菜单
 	}
