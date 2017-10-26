@@ -1,0 +1,86 @@
+2017-10-26 10:56:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_962b22f376f9]]></ToUserName>
+<FromUserName><![CDATA[o_7k0xCKYXvH28imNE7ZUUMgD8XQ]]></FromUserName>
+<CreateTime>1508986619</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[啊]]></Content>
+<MsgId>6481048179135828619</MsgId>
+</xml>
+
+2017-10-26 10:56:59 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_962b22f376f9',
+    'fromusername' => 'o_7k0xCKYXvH28imNE7ZUUMgD8XQ',
+    'createtime' => '1508986619',
+    'msgtype' => 'text',
+    'content' => '啊',
+    'msgid' => '6481048179135828619',
+    'from' => 'o_7k0xCKYXvH28imNE7ZUUMgD8XQ',
+    'to' => 'gh_962b22f376f9',
+    'time' => '1508986619',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-10-26 10:56:59 response :
+------------
+
+2017-10-26 10:57:03 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_962b22f376f9]]></ToUserName>
+<FromUserName><![CDATA[o_7k0xCKYXvH28imNE7ZUUMgD8XQ]]></FromUserName>
+<CreateTime>1508986623</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-10-26 10:57:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_962b22f376f9]]></ToUserName>
+<FromUserName><![CDATA[o_7k0xCKYXvH28imNE7ZUUMgD8XQ]]></FromUserName>
+<CreateTime>1508986627</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-10-26 10:57:07 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_962b22f376f9',
+    'fromusername' => 'o_7k0xCKYXvH28imNE7ZUUMgD8XQ',
+    'createtime' => '1508986627',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o_7k0xCKYXvH28imNE7ZUUMgD8XQ',
+    'to' => 'gh_962b22f376f9',
+    'time' => '1508986627',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-10-26 10:57:07 response :
+------------
+
