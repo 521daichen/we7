@@ -49,16 +49,15 @@ class Happy_activityModuleSite extends WeModuleSite {
         load()->func('tpl');
         $pindex = max(1, intval($_GPC["page"]));
         $psize = 2;
-
-        $total = pdo_fetchcolumn('SELECT COUNT(*) FROM ' . tablename('happy_happyactivity_join') . " WHERE uniacid = '{$_W['uniacid']}'");
-        $pager = pagination($total, $pindex, $psize, $url = '', $context = array('before' => 0, 'after' => 0, 'ajaxcallback' => ''));
-
-
         $res = pdo_fetchall("SELECT * FROM ".tablename('happy_happyactivity_join')." where `uniacid`=:uniacid
         
         and limit .($pindex-1)*$psize.','.$psize.
         ",
             array(':uniacid'=>$_W['uniacid']));
+        $total = count($res);
+//        $total = pdo_fetchcolumn('SELECT COUNT(*) FROM ' . tablename('happy_happyactivity_join') . " WHERE uniacid = '{$_W['uniacid']}'");
+        $pager = pagination($total, $pindex, $psize, $url = '', $context = array('before' => 0, 'after' => 0, 'ajaxcallback' => ''));
+
 
         include $this->template('ActivityLog');
 	}
