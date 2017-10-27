@@ -50,9 +50,7 @@ class Happy_activityModuleSite extends WeModuleSite {
         $res = pdo_fetchall("select * from ".tablename('happy_happyactivity_join')." where `uniacid`=:uniacid",
             array(':uniacid'=>$_W['uniacid'])
             );
-        pdo_debug();
-        var_dump($res);
-        exit();
+      
         include $this->template('ActivityLog');
 	}
 	public function doMobileIndexNav() {
