@@ -5,4 +5,8 @@
  * Date: 2017/10/27
  * Time: 上午11:51
  */
-echo 1;
+global $_W;
+//获取活动数据
+//加载视图
+
+include $this->template('entry');
