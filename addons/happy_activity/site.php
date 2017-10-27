@@ -49,7 +49,7 @@ class Happy_activityModuleSite extends WeModuleSite {
         load()->func('tpl');
 
         $pindex = max(1, intval($_GPC['page']));
-        $psize = 4;
+        $psize = 2;
         $condition = '';
 
 		//这个操作被定义用来呈现 管理中心导航菜单
@@ -58,7 +58,7 @@ class Happy_activityModuleSite extends WeModuleSite {
         ",
             array(':uniacid'=>$_W['uniacid'])
             );
-
+        $total = count($res);
         include $this->template('ActivityLog');
 	}
 	public function doMobileIndexNav() {
