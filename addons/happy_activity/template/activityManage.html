@@ -40,5 +40,19 @@
 </div>
 
 
-
+{php echo tpl_ueditor('')}
+<script type="text/javascript">
+    <!--
+    // ueditoroption 这个变量是微擎定义好的百度编辑器的初始化参数，直接使用即可
+    var editor = UE.getEditor('content', ueditoroption);
+    editor.addListener('contentChange', function() {
+        //此处增加了侦听编辑器内容变化的事件
+        //do something
+    });
+    editor.addListener('ready', function(){
+        //此处增加了侦听编辑器初始化的事件
+        //do something
+    });
+    //-->
+</script>
 {template 'common/footer'}
