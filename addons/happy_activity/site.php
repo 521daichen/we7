@@ -20,7 +20,7 @@ class Happy_activityModuleSite extends WeModuleSite {
 	}
 	public function doWebAvtivityManage() {
 		//这个操作被定义用来呈现 管理中心导航菜单
-        include $this->template('acvtivityManage');
+        include $this->template('activityManage');
 	}
 	public function doWebActivityLog() {
 		//这个操作被定义用来呈现 管理中心导航菜单
