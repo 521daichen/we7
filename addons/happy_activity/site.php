@@ -31,12 +31,16 @@ class Happy_activityModuleSite extends WeModuleSite {
             $data['desc'] = $_GPC['info'];
             $data['thumb'] = $_GPC['thumb'];
             $res = pdo_insert('happy_happyactivity_activity',$data);
-pdo_debug();
             if($res){
-                message('编辑活动成功','','success');
+                message('编辑活动成功',$this->createWebUrl('activity',array()),'success');
             }else{
                 error('编辑活动失败','refresh','error');
             }
+
+            $activity = pdo_fetch("select * from ".tablename(happy_happyactivity_activity)."where `uniacid`=:uniacid"
+            ,array(':uniacid'=>$_W['uniacid'])
+            );
+
         }
 
         include $this->template('activityManage');
