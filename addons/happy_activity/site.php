@@ -37,12 +37,12 @@ class Happy_activityModuleSite extends WeModuleSite {
                 error('编辑活动失败','refresh','error');
             }
 
-            $activity = pdo_fetch(
-                "select * from ".tablename(happy_happyactivity_activity)."where `uniacid`=:uniacid"
-            ,array(':uniacid'=>$_W['uniacid'])
-            );
-
         }
+
+        $activity = pdo_fetch(
+            "select * from ".tablename(happy_happyactivity_activity)."where `uniacid`=:uniacid"
+            ,array(':uniacid'=>$_W['uniacid'])
+        );
 
         include $this->template('activityManage');
 	}
