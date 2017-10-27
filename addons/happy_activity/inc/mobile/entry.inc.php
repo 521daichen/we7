@@ -7,7 +7,8 @@
  */
 global $_W;
 //获取活动数据
-$activity = pdo_fetch("select * from ".tablename('happy_happyactivity_activity')."where `uniacid`=:uniacid",array(
+$activity = pdo_fetch("select * from ".tablename('happy_happyactivity_activity')."where `uniacid`=:uniacid
+order by id desc",array(
     ':uniacid'=>$_W['uniacid']
 ));
 //加载视图

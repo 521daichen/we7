@@ -41,7 +41,8 @@ class Happy_activityModuleSite extends WeModuleSite {
         }
 
         $activity = pdo_fetch(
-            "select * from ".tablename(happy_happyactivity_activity)."where `uniacid`=:uniacid"
+            "select * from ".tablename(happy_happyactivity_activity)."where `uniacid`=:uniacid
+            order by id desc"
             ,array(':uniacid'=>$_W['uniacid'])
         );
 
