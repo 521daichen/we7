@@ -32,7 +32,7 @@ class Happy_activityModuleSite extends WeModuleSite {
             $data['thumb'] = $_GPC['thumb'];
             $res = pdo_insert('happy_happyactivity_activity',$data);
             if($res){
-                message('编辑活动成功',$this->createWebUrl('activity',array()),'success');
+                message('编辑活动成功',$this->createWebUrl('AvtivityManage',array()),'success');
             }else{
                 error('编辑活动失败','refresh','error');
             }
