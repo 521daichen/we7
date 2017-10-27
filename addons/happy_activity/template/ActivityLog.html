@@ -16,14 +16,16 @@
                 <th>Last Name</th>
                 <th>Username</th>
             </tr>
+            {$res}
             </thead>
             <tbody>
             {loop $res $key $item}
             <tr>
                 <th scope="row">{$item['id']}</th>
                 <td>{$item['name']}</td>
-                <td>{php echo $item['sex'] == 1 ? '男','女';}</td>
-                
+              
+                <!--<td><img src="{php echo tomedia($item['pic']);}" alt="">{</td>-->
+                <!--<td>{$item['mobile']}</td>-->
             </tr>
             {/loop}
             </tbody>
