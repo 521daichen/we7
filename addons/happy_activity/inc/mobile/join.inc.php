@@ -14,11 +14,11 @@ if(checksubmit('submit')){
     $data['name'] = $_GPC['username'];
     $data['sex'] = $_GPC['sex'];
     $data['mobile'] = $_GPC['mobile'];
-    $data['pic'] = $_GPC['pic'];
+    $data['pic'] = $_GPC['thumb'];
     $data['msg'] = $_GPC['msg'];
     $res = pdo_insert("happy_happyactivity_join",$data);
     if($res){
-        message('编辑活动成功',$this->createWebUrl('join',array()),'success');
+        message('编辑活动成功',$this->createMobileUrl('join',array()),'success');
     }else{
         message('保存失败','','error');
     }
