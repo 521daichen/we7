@@ -46,7 +46,7 @@ class Happy_activityModuleSite extends WeModuleSite {
 	}
 	public function doWebActivityLog() {
 		//这个操作被定义用来呈现 管理中心导航菜单
-        echo 1;
+        $this->template('ActivityLog');
 	}
 	public function doMobileIndexNav() {
 		//这个操作被定义用来呈现 微站首页导航图标
