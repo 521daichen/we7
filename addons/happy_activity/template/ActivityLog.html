@@ -20,7 +20,10 @@
             <tbody>
             {loop $res $key $item}
             <tr>
-              
+                <th scope="row">{$item['id']}</th>
+                <td>{$item['name']}</td>
+                <td>{php echo $item['sex'] == 1 ? '男','女';}</td>
+                
             </tr>
             {/loop}
             </tbody>
