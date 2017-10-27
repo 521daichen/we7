@@ -26,7 +26,7 @@
             <div class="form-group">
                 <label for="inputPassword3" class="col-sm-2 control-label">活动介绍</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" id="inputPassword3" placeholder="Password">
+                    {php echo tpl_ueditor('content');}
                 </div>
             </div>
 
@@ -38,4 +38,20 @@
         </form>
     </div>
 </div>
+
+{php echo tpl_ueditor('')}
+<script type="text/javascript">
+    <!--
+    // ueditoroption 这个变量是微擎定义好的百度编辑器的初始化参数，直接使用即可
+    var editor = UE.getEditor('content', ueditoroption);
+    editor.addListener('contentChange', function() {
+        //此处增加了侦听编辑器内容变化的事件
+        //do something
+    });
+    editor.addListener('ready', function(){
+        //此处增加了侦听编辑器初始化的事件
+        //do something
+    });
+    //-->
+</script>
 {template 'common/footer'}
