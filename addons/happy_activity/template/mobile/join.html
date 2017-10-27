@@ -1,1 +1,53 @@
-hello
+{template 'common/header'}
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">活动时间</div>
+    <div class="panel-body">
+        {$activity['start_time']} ~ {$activity['end_time']}
+    </div>
+</div>
+
+<form class="form-horizontal">
+    <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label">姓名</label>
+        <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="inputPassword3" class="col-sm-2 control-label">性别</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputPassword3" placeholder="Password">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="inputPassword3" class="col-sm-2 control-label">手机号</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputPassword3" placeholder="Password">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="inputPassword3" class="col-sm-2 control-label">照片</label>
+
+
+        <div class="col-sm-10">
+            {php echo tpl_app_form_field_image('image', $image);}
+        </div>
+
+    </div>
+
+    <div class="form-group">
+        <label for="inputPassword3" class="col-sm-2 control-label">留言</label>
+        <div class="col-sm-10">
+            <input type="passwotextrd" class="form-control" id="inputPassword3" placeholder="Password">
+        </div>
+    </div>
+    <button>点击报名</button>
+</form>
+
+
+
+{template 'common/footer'}

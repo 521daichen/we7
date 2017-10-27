@@ -6,4 +6,5 @@
  * Time: 下午12:12
  */
 global $_W;
+load()->func('tpl');
 include $this->template('join');
