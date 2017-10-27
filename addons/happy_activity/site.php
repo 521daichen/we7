@@ -31,6 +31,8 @@ class Happy_activityModuleSite extends WeModuleSite {
             $data['desc'] = $_GPC['info'];
             $data['thumb'] = $_GPC['thumb'];
             $res = pdo_insert('happy_happyacitvity_acitivity');
+
+            pdo_debug();
             if($res){
                 message('编辑活动成功','','success');
             }else{
