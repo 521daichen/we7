@@ -24,7 +24,6 @@ class Happy_activityModuleSite extends WeModuleSite {
         global $_W,$_GPC;
         load()->func('tpl');
         if(checksubmit('submit')){
-
             $data['uniacid'] = $_W['uniacid'];
             $data['title'] = $_GPC['title'];
             $data['start_time'] = $_GPC['activity_time']['start'];
@@ -37,19 +36,17 @@ class Happy_activityModuleSite extends WeModuleSite {
             }else{
                 error('编辑活动失败','refresh','error');
             }
-
         }
-
         $activity = pdo_fetch(
             "select * from ".tablename(happy_happyactivity_activity)."where `uniacid`=:uniacid
             order by id desc"
             ,array(':uniacid'=>$_W['uniacid'])
         );
-
         include $this->template('activityManage');
 	}
 	public function doWebActivityLog() {
 		//这个操作被定义用来呈现 管理中心导航菜单
+        echo 1;
 	}
 	public function doMobileIndexNav() {
 		//这个操作被定义用来呈现 微站首页导航图标
