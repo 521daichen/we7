@@ -20,7 +20,12 @@ class Happy_activityModuleSite extends WeModuleSite {
 	}
 	public function doWebAvtivityManage() {
 		//这个操作被定义用来呈现 管理中心导航菜单
+        global $_W,$_GPC;
         load()->func('tpl');
+        if(checksubmit('submit')){
+            var_dump($_GPC);
+        }
+
         include $this->template('activityManage');
 	}
 	public function doWebActivityLog() {
