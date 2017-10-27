@@ -57,6 +57,7 @@ class Happy_activityModuleSite extends WeModuleSite {
             );
 
         pdo_debug();
+        exit();
         $total = count($res);
         include $this->template('ActivityLog');
 	}
