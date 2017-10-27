@@ -11,6 +11,7 @@ class Happy_activityModuleSite extends WeModuleSite {
 
 	public function doMobileEntry() {
 		//这个操作被定义用来呈现 功能封面
+        echo 1;
 	}
 	public function doWebRule1() {
 		//这个操作被定义用来呈现 规则列表
