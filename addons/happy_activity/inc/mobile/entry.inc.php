@@ -10,8 +10,6 @@ global $_W;
 $activity = pdo_fetch("select * from ".tablename('happy_happyactivity_activity')."where `uniacid`=:uniacid",array(
     ':uniacid'=>$_W['uniacid']
 ));
-var_dump($activity);
-
 //加载视图
 
 include $this->template('entry');
