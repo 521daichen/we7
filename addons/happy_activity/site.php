@@ -45,7 +45,12 @@ class Happy_activityModuleSite extends WeModuleSite {
         include $this->template('activityManage');
 	}
 	public function doWebActivityLog() {
+	    global $_W;
 		//这个操作被定义用来呈现 管理中心导航菜单
+        $res = pdo_fetchall("select * from ".tablename('happy_happyactivity_join')." where `uniacid`=:uniacid",
+            array(':uniacid'=>$_W['uniacid'])
+            );
+
         include $this->template('ActivityLog');
 	}
 	public function doMobileIndexNav() {
