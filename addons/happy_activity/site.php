@@ -51,12 +51,12 @@ class Happy_activityModuleSite extends WeModuleSite {
         $psize = 2;
 		//这个操作被定义用来呈现 管理中心导航菜单
         $res = pdo_fetchall("select * from ".tablename('happy_happyactivity_join')." where `uniacid`=:uniacid 
-        Limit ($pindex - 1) * $psize."," .$psize.
+        Limit ($pindex - 1) * $psize.',' .$psize.
         ",
             array(':uniacid'=>$_W['uniacid'])
             );
 
-     
+
         $total = count($res);
         include $this->template('ActivityLog');
 	}
