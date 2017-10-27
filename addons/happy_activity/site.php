@@ -23,7 +23,19 @@ class Happy_activityModuleSite extends WeModuleSite {
         global $_W,$_GPC;
         load()->func('tpl');
         if(checksubmit('submit')){
-            var_dump($_GPC);
+
+            $data['uniacid'] = $_W['uniacid'];
+            $data['title'] = $_GPC['title'];
+            $data['start_time'] = $_GPC['activity_time']['start'];
+            $data['end_time'] = $_GPC['activity_time']['start'];
+            $data['desc'] = $_GPC['info'];
+            $data['thumb'] = $_GPC['thumb'];
+            $res = pdo_insert('happy_happyacitvity_acitivity');
+            if($res){
+                message('编辑活动成功','','success');
+            }else{
+                error('编辑活动失败','refresh','error');
+            }
         }
 
         include $this->template('activityManage');
