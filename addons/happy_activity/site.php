@@ -56,8 +56,7 @@ class Happy_activityModuleSite extends WeModuleSite {
             array(':uniacid'=>$_W['uniacid'])
             );
 
-        pdo_debug();
-        exit();
+     
         $total = count($res);
         include $this->template('ActivityLog');
 	}
