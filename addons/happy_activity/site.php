@@ -51,8 +51,8 @@ class Happy_activityModuleSite extends WeModuleSite {
         $psize = 2;
         $res = pdo_fetchall("SELECT * FROM " . tablename('happy_happyactivity_join') . " 
         WHERE `uniacid`=:uniacid ORDER BY id DESC LIMIT " . ($pindex - 1) * $psize . ',' . $psize, array(':uniacid'=>$_W['uniacid']));
-        $total = count($res);
-        exit();
+        $total = pdo_fetchcolumn('SELECT COUNT(*) FROM ' . tablename('happy_happyactivity_join') . " 
+        WHERE uniacid = '{$_W['uniacid']}'");
 //        $total = pdo_fetchcolumn('SELECT COUNT(*) FROM ' . tablename('happy_happyactivity_join') . " WHERE uniacid = '{$_W['uniacid']}'");
         $pager = pagination($total, $pindex, $psize, $url = '', $context = array('before' => 0, 'after' => 0, 'ajaxcallback' => ''));
         include $this->template('ActivityLog');
