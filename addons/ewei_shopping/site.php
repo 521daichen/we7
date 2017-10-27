@@ -1104,9 +1104,13 @@ class Ewei_shoppingModuleSite extends WeModuleSite {
 			}
 		}
 		unset($r);
+
+
 		$total = pdo_fetchcolumn('SELECT COUNT(*) FROM ' . tablename('shopping_goods') . " WHERE weid = '{$_W['uniacid']}'  and deleted=0  AND status = '1' $condition");
 		$pager = pagination($total, $pindex, $psize, $url = '', $context = array('before' => 0, 'after' => 0, 'ajaxcallback' => ''));
 		$carttotal = $this->getCartTotal();
+
+
 		include $this->template('list2');
 	}
 	function time_tran($the_time) {
