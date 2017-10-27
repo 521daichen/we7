@@ -1,0 +1,670 @@
+2017-10-27 11:46:12 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_962b22f376f9]]></ToUserName>
+<FromUserName><![CDATA[o_7k0xCKYXvH28imNE7ZUUMgD8XQ]]></FromUserName>
+<CreateTime>1509075972</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[报名]]></Content>
+<MsgId>6481431947348655372</MsgId>
+</xml>
+
+2017-10-27 11:46:12 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_962b22f376f9',
+    'fromusername' => 'o_7k0xCKYXvH28imNE7ZUUMgD8XQ',
+    'createtime' => '1509075972',
+    'msgtype' => 'text',
+    'content' => '报名',
+    'msgid' => '6481431947348655372',
+    'from' => 'o_7k0xCKYXvH28imNE7ZUUMgD8XQ',
+    'to' => 'gh_962b22f376f9',
+    'time' => '1509075972',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'cover',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'cover',
+    'content' => '报名',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+    ),
+  ),
+  'reply_type' => 
+  array (
+  ),
+)
+
+2017-10-27 11:46:12 response :
+------------
+Array:
+FromUserName : gh_962b22f376f9 ;
+ToUserName : o_7k0xCKYXvH28imNE7ZUUMgD8XQ ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-10-27 11:46:44 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_962b22f376f9]]></ToUserName>
+<FromUserName><![CDATA[o_7k0xCKYXvH28imNE7ZUUMgD8XQ]]></FromUserName>
+<CreateTime>1509076004</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[http://wechat.biubiuonline.com/app/index.php?i=1&c=entry&do=entry&m=happy_activity&wxref=mp.weixin.qq.com#wechat_redirect]]></Content>
+<MsgId>6481432084787608850</MsgId>
+</xml>
+
+2017-10-27 11:46:44 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_962b22f376f9',
+    'fromusername' => 'o_7k0xCKYXvH28imNE7ZUUMgD8XQ',
+    'createtime' => '1509076004',
+    'msgtype' => 'text',
+    'content' => 'http://wechat.biubiuonline.com/app/index.php?i=1&c=entry&do=entry&m=happy_activity&wxref=mp.weixin.qq.com#wechat_redirect',
+    'msgid' => '6481432084787608850',
+    'from' => 'o_7k0xCKYXvH28imNE7ZUUMgD8XQ',
+    'to' => 'gh_962b22f376f9',
+    'time' => '1509076004',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-10-27 11:46:44 response :
+------------
+
+2017-10-27 12:03:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_962b22f376f9]]></ToUserName>
+<FromUserName><![CDATA[o_7k0xCKYXvH28imNE7ZUUMgD8XQ]]></FromUserName>
+<CreateTime>1509077006</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[报名]]></Content>
+<MsgId>6481436388344839780</MsgId>
+</xml>
+
+2017-10-27 12:03:26 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_962b22f376f9',
+    'fromusername' => 'o_7k0xCKYXvH28imNE7ZUUMgD8XQ',
+    'createtime' => '1509077006',
+    'msgtype' => 'text',
+    'content' => '报名',
+    'msgid' => '6481436388344839780',
+    'from' => 'o_7k0xCKYXvH28imNE7ZUUMgD8XQ',
+    'to' => 'gh_962b22f376f9',
+    'time' => '1509077006',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'cover',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'cover',
+    'content' => '报名',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+    ),
+  ),
+  'reply_type' => 
+  array (
+  ),
+)
+
+2017-10-27 12:03:26 response :
+------------
+Array:
+FromUserName : gh_962b22f376f9 ;
+ToUserName : o_7k0xCKYXvH28imNE7ZUUMgD8XQ ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-10-27 12:10:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_962b22f376f9]]></ToUserName>
+<FromUserName><![CDATA[o_7k0xCKYXvH28imNE7ZUUMgD8XQ]]></FromUserName>
+<CreateTime>1509077420</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[报名]]></Content>
+<MsgId>6481438166461300455</MsgId>
+</xml>
+
+2017-10-27 12:10:20 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_962b22f376f9',
+    'fromusername' => 'o_7k0xCKYXvH28imNE7ZUUMgD8XQ',
+    'createtime' => '1509077420',
+    'msgtype' => 'text',
+    'content' => '报名',
+    'msgid' => '6481438166461300455',
+    'from' => 'o_7k0xCKYXvH28imNE7ZUUMgD8XQ',
+    'to' => 'gh_962b22f376f9',
+    'time' => '1509077420',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'cover',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'cover',
+    'content' => '报名',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+    ),
+  ),
+  'reply_type' => 
+  array (
+  ),
+)
+
+2017-10-27 12:10:20 response :
+------------
+Array:
+FromUserName : gh_962b22f376f9 ;
+ToUserName : o_7k0xCKYXvH28imNE7ZUUMgD8XQ ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-10-27 12:49:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_962b22f376f9]]></ToUserName>
+<FromUserName><![CDATA[o_7k0xCKYXvH28imNE7ZUUMgD8XQ]]></FromUserName>
+<CreateTime>1509079800</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[测试]]></Content>
+<MsgId>6481448388483465599</MsgId>
+</xml>
+
+2017-10-27 12:49:59 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_962b22f376f9',
+    'fromusername' => 'o_7k0xCKYXvH28imNE7ZUUMgD8XQ',
+    'createtime' => '1509079800',
+    'msgtype' => 'text',
+    'content' => '测试',
+    'msgid' => '6481448388483465599',
+    'from' => 'o_7k0xCKYXvH28imNE7ZUUMgD8XQ',
+    'to' => 'gh_962b22f376f9',
+    'time' => '1509079800',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'happy_activity',
+  'rule' => '12',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '17',
+    'rid' => '12',
+    'uniacid' => '1',
+    'module' => 'happy_activity',
+    'content' => '测试',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+    ),
+  ),
+  'reply_type' => 
+  array (
+  ),
+)
+
+2017-10-27 12:49:59 response :
+------------
+Array:
+FromUserName : gh_962b22f376f9 ;
+ToUserName : o_7k0xCKYXvH28imNE7ZUUMgD8XQ ;
+MsgType : text ;
+Content : hello world ;
+
+2017-10-27 12:55:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[toUser]]></ToUserName><FromUserName><![CDATA[fromUser]]></FromUserName><CreateTime>1509080107</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[测试]]></Content><MsgId>1234567890123456</MsgId></xml>
+
+2017-10-27 12:55:07 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'toUser',
+    'fromusername' => 'fromUser',
+    'createtime' => '1509080107',
+    'msgtype' => 'text',
+    'content' => '测试',
+    'msgid' => '1234567890123456',
+    'from' => 'fromUser',
+    'to' => 'toUser',
+    'time' => '1509080107',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'happy_activity',
+  'rule' => '12',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '17',
+    'rid' => '12',
+    'uniacid' => '1',
+    'module' => 'happy_activity',
+    'content' => '测试',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+    ),
+  ),
+  'reply_type' => 
+  array (
+  ),
+)
+
+2017-10-27 12:55:07 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : text ;
+Content : hello world ;
+
+2017-10-27 12:55:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[toUser]]></ToUserName><FromUserName><![CDATA[fromUser]]></FromUserName><CreateTime>1509080109</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[测试]]></Content><MsgId>1234567890123456</MsgId></xml>
+
+2017-10-27 12:55:08 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'toUser',
+    'fromusername' => 'fromUser',
+    'createtime' => '1509080109',
+    'msgtype' => 'text',
+    'content' => '测试',
+    'msgid' => '1234567890123456',
+    'from' => 'fromUser',
+    'to' => 'toUser',
+    'time' => '1509080109',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'happy_activity',
+  'rule' => '12',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '17',
+    'rid' => '12',
+    'uniacid' => '1',
+    'module' => 'happy_activity',
+    'content' => '测试',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+    ),
+  ),
+  'reply_type' => 
+  array (
+  ),
+)
+
+2017-10-27 12:55:08 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : text ;
+Content : hello world ;
+
+2017-10-27 12:55:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[toUser]]></ToUserName><FromUserName><![CDATA[fromUser]]></FromUserName><CreateTime>1509080110</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[测试]]></Content><MsgId>1234567890123456</MsgId></xml>
+
+2017-10-27 12:55:09 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'toUser',
+    'fromusername' => 'fromUser',
+    'createtime' => '1509080110',
+    'msgtype' => 'text',
+    'content' => '测试',
+    'msgid' => '1234567890123456',
+    'from' => 'fromUser',
+    'to' => 'toUser',
+    'time' => '1509080110',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'happy_activity',
+  'rule' => '12',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '17',
+    'rid' => '12',
+    'uniacid' => '1',
+    'module' => 'happy_activity',
+    'content' => '测试',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+    ),
+  ),
+  'reply_type' => 
+  array (
+  ),
+)
+
+2017-10-27 12:55:09 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : text ;
+Content : hello world ;
+
+2017-10-27 12:55:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[toUser]]></ToUserName><FromUserName><![CDATA[fromUser]]></FromUserName><CreateTime>1509080111</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[测试]]></Content><MsgId>1234567890123456</MsgId></xml>
+
+2017-10-27 12:55:10 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'toUser',
+    'fromusername' => 'fromUser',
+    'createtime' => '1509080111',
+    'msgtype' => 'text',
+    'content' => '测试',
+    'msgid' => '1234567890123456',
+    'from' => 'fromUser',
+    'to' => 'toUser',
+    'time' => '1509080111',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'happy_activity',
+  'rule' => '12',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '17',
+    'rid' => '12',
+    'uniacid' => '1',
+    'module' => 'happy_activity',
+    'content' => '测试',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+    ),
+  ),
+  'reply_type' => 
+  array (
+  ),
+)
+
+2017-10-27 12:55:10 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : text ;
+Content : hello world ;
+
+2017-10-27 12:55:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[toUser]]></ToUserName><FromUserName><![CDATA[fromUser]]></FromUserName><CreateTime>1509080154</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[测试]]></Content><MsgId>1234567890123456</MsgId></xml>
+
+2017-10-27 12:55:53 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'toUser',
+    'fromusername' => 'fromUser',
+    'createtime' => '1509080154',
+    'msgtype' => 'text',
+    'content' => '测试',
+    'msgid' => '1234567890123456',
+    'from' => 'fromUser',
+    'to' => 'toUser',
+    'time' => '1509080154',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'happy_activity',
+  'rule' => '12',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '17',
+    'rid' => '12',
+    'uniacid' => '1',
+    'module' => 'happy_activity',
+    'content' => '测试',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+    ),
+  ),
+  'reply_type' => 
+  array (
+  ),
+)
+
+2017-10-27 12:55:53 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : text ;
+Content : 测试 ;
+
+2017-10-27 12:57:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[toUser]]></ToUserName><FromUserName><![CDATA[fromUser]]></FromUserName><CreateTime>1509080245</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[测试]]></Content><MsgId>1234567890123456</MsgId></xml>
+
+2017-10-27 12:57:24 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'toUser',
+    'fromusername' => 'fromUser',
+    'createtime' => '1509080245',
+    'msgtype' => 'text',
+    'content' => '测试',
+    'msgid' => '1234567890123456',
+    'from' => 'fromUser',
+    'to' => 'toUser',
+    'time' => '1509080245',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'happy_activity',
+  'rule' => '12',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '17',
+    'rid' => '12',
+    'uniacid' => '1',
+    'module' => 'happy_activity',
+    'content' => '测试',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+    ),
+  ),
+  'reply_type' => 
+  array (
+  ),
+)
+
+2017-10-27 12:57:24 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : text ;
+Content :  ;
+
+2017-10-27 12:57:31 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[toUser]]></ToUserName><FromUserName><![CDATA[fromUser]]></FromUserName><CreateTime>1509080252</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[测试]]></Content><MsgId>1234567890123456</MsgId></xml>
+
+2017-10-27 12:57:31 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'toUser',
+    'fromusername' => 'fromUser',
+    'createtime' => '1509080252',
+    'msgtype' => 'text',
+    'content' => '测试',
+    'msgid' => '1234567890123456',
+    'from' => 'fromUser',
+    'to' => 'toUser',
+    'time' => '1509080252',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'happy_activity',
+  'rule' => '12',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '17',
+    'rid' => '12',
+    'uniacid' => '1',
+    'module' => 'happy_activity',
+    'content' => '测试',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+    ),
+  ),
+  'reply_type' => 
+  array (
+  ),
+)
+
+2017-10-27 12:57:31 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : text ;
+Content :  ;
+

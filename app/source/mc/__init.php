@@ -4,9 +4,9 @@
  * WeEngine is NOT a free software, it under the license terms, visited http://www.we7.cc/ for more details.
  */
 defined('IN_IA') or exit('Access Denied');
-//if ($action != 'cash') {
-//	checkauth();
-//}
+if ($action != 'cash') {
+	checkauth();
+}
 if ($controller == 'mc' && $action == 'card') {
 	if ($do == 'sign_display') {
 		header('Location: ' . murl('entry', array('m' => 'we7_coupon', 'do' => 'card', 'op' => 'sign_display')));

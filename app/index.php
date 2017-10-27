@@ -8,8 +8,6 @@ define('IN_MOBILE', true);
 require '../framework/bootstrap.inc.php';
 load()->app('common');
 load()->app('template');
-
-
 require IA_ROOT . '/app/common/bootstrap.app.inc.php';
 
 $acl = array(
@@ -21,13 +19,10 @@ $acl = array(
 	)
 );
 
-
 if ($_W['setting']['copyright']['status'] == 1) {
 	$_W['siteclose'] = true;
 	message('抱歉，站点已关闭，关闭原因：' . $_W['setting']['copyright']['reason']);
 }
-
-
 $multiid = intval($_GPC['t']);
 if(empty($multiid)) {
 		$multiid = intval($unisetting['default_site']);
@@ -75,7 +70,6 @@ if ($controller == 'wechat' && $action == 'card' && $do == 'use') {
 	header("location: index.php?i={$_W['uniacid']}&c=entry&m=paycenter&do=consume&encrypt_code={$_GPC['encrypt_code']}&card_id={$_GPC['card_id']}&openid={$_GPC['openid']}&source={$_GPC['source']}");
 	exit;
 }
-
 $controllers = array();
 $handle = opendir(IA_ROOT . '/app/source/');
 if(!empty($handle)) {
@@ -88,21 +82,13 @@ if(!empty($handle)) {
 if(!in_array($controller, $controllers)) {
 	$controller = 'home';
 }
-
-
 $init = IA_ROOT . "/app/source/{$controller}/__init.php";
-
 if(is_file($init)) {
 	require $init;
 }
 
-
 $actions = array();
-
-
 $handle = opendir(IA_ROOT . '/app/source/' . $controller);
-
-
 if(!empty($handle)) {
 	while($dir = readdir($handle)) {
 		if($dir != '.' && $dir != '..' && strexists($dir, '.ctrl.php')) {
@@ -111,7 +97,6 @@ if(!empty($handle)) {
 		}
 	}
 }
-
 
 if(empty($actions)) {
 	$str = '';
@@ -126,11 +111,7 @@ if(!in_array($action, $actions)) {
 if(!in_array($action, $actions)) {
 	$action = $actions[0];
 }
-
-
 require _forward($controller, $action);
-
-
 
 function _forward($c, $a) {
 	$file = IA_ROOT . '/app/source/' . $c . '/' . $a . '.ctrl.php';
