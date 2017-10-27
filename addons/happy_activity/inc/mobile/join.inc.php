@@ -9,6 +9,9 @@ global $_W,$_GPC;
 load()->func('tpl');
 
 if(checksubmit('submit')){
+
+    var_dump($_GPC);
+    exit();
     $data['openid'] = $_W['openid'];
     $data['uniacid'] = $_W['uniacid'];
     $data['name'] = $_GPC['username'];
