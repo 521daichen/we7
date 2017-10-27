@@ -47,17 +47,16 @@ class Happy_activityModuleSite extends WeModuleSite {
 	public function doWebActivityLog() {
 	    global $_W,$_GPC;
         load()->func('tpl');
-
         $pindex = max(1, intval($_GPC['page']));
         $psize = 2;
-        $condition = '';
-
 		//这个操作被定义用来呈现 管理中心导航菜单
         $res = pdo_fetchall("select * from ".tablename('happy_happyactivity_join')." where `uniacid`=:uniacid 
         Limit ($pindex - 1) * $psize.",".$psize
         ",
             array(':uniacid'=>$_W['uniacid'])
             );
+
+        pdo_debug();
         $total = count($res);
         include $this->template('ActivityLog');
 	}
